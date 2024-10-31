@@ -25,7 +25,7 @@ int main()
             cout << "Masukkan NPM Mahasiswa : "; cin >> np;
             cin.ignore();
             npm.push_back(np);
-            cout << "Masukkan Tanggal Lahihr : "; getline(cin, tl);
+            cout << "Masukkan umur : "; getline(cin, tl);
             tanggalLahir.push_back(tl);
             cout << "\nData Telah Ditambahkan\n";
             cout << "Kembali ke menu utama? (y/n) : "; cin>>t;
